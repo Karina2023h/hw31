@@ -1,0 +1,107 @@
+.App {
+  padding: 20px 80px;
+
+}
+
+ul {
+  list-style-type: none;
+  padding: 0;
+}
+
+li {
+  display: flex;
+  align-items: center;
+  padding: 10px;
+  margin: 15px 0;
+  background-color: #e1e1e1;
+  border-radius: 5px;
+  box-shadow: 0 1px 2px rgba(27, 26, 26, 0.925);
+}
+
+input[type="checkbox"] {
+  margin-right: 15px;
+  width: 20px;
+  height: 20px;
+}
+
+span {
+  flex: 1;
+  text-align: left;
+  cursor: pointer;
+  color: #000000;
+  font-size: 20px;
+}
+
+span.completed {
+  text-decoration: line-through;
+  color: #f40808;
+}
+
+button {
+  background-color: #0b9616;
+  border: none;
+  color: white;
+  padding: 10px 20px;
+  margin: 5px;
+  border-radius: 5px;
+  cursor: pointer;
+  font-size: 16px;
+}
+
+.btn-orf {
+  background-color: #ff9100;
+  border: none;
+  color: white;
+  padding: 10px 20px;
+  margin: 5px;
+  border-radius: 5px;
+  cursor: pointer;
+  font-size: 16px;
+}
+
+.btn-orf:hover {
+  background-color: #c56f00;
+}
+
+.btn-orfna {
+  background-color: #140b96;
+  border: none;
+  color: white;
+  padding: 10px 20px;
+  margin: 5px;
+  border-radius: 5px;
+  cursor: pointer;
+  font-size: 16px;
+}
+
+.btn-orfna:hover {
+  background-color: #0a0550;
+}
+
+.cont {
+  display: flex;
+  justify-content: center;
+  align-content: center;
+  align-items: center;
+  gap: 5px;
+}
+
+button:hover {
+  background-color: #10851f;
+}
+
+button.remove {
+  background-color: #ff0606;
+}
+
+button.remove:hover {
+  background-color: #be0c0c;
+}
+
+h1 {
+  color: #0d0d0e;
+  margin-bottom: 20px;
+  font-size: 38px;
+  font-family: 'Times New Roman', Times, serif;
+  text-align: center;
+}
